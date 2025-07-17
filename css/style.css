@@ -17,7 +17,21 @@
 }
 .tecnologias {
   display: grid;
-  grid-auto-flow: column; /* Preenche as colunas verticalmente */
-  grid-template-rows: repeat(4, auto); /* 3 itens por coluna */
+  grid-auto-flow: column; 
+  grid-template-rows: repeat(4, auto); 
   gap: 1rem;
+}
+input {
+  background-color: rgb(34, 34, 34);
+  padding-left: 25px;
+  width: 450px;
+  height: 50px;
+  border-radius: 3px;
+}
+textarea{
+  background-color: rgb(34, 34, 34);
+  border-radius: 3px;
+}
+label{
+  font-weight: 500;
 }
