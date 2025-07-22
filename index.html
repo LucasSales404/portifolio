@@ -1,595 +1,374 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./css/output.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header
-      class="flex items-center justify-between px-28 w-screen h-[70px] bg-black"
-    >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./css/output.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="flex items-center fixed justify-between px-28 w-full h-[70px] bg-black">
+    <a href="index.html">
       <h1 class="text-white text-xl fonte-nome">
-        <span class="text-red-600 alfa-slab-one-regular text-[18px]"
-          >&lt;\&gt;
+        <span class="text-red-600 alfa-slab-one-regular text-[18px]">&lt;\&gt;
         </span>
         Lucas
         <span class="text-red-600 fonte-nome">Sales</span>
       </h1>
-      <nav>
-        <ul class="text-white flex gap-5">
-          <li class="cursor-pointer hover:text-red-600"><a href="#inicio">Início</a></li>
-          <li class="cursor-pointer hover:text-red-600"><a href="#sobre">Sobre mim</a></li>
-          <li class="cursor-pointer hover:text-red-600"><a href="#projetos">Projetos</a></li>
-          <li class="cursor-pointer hover:text-red-600"><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="inicio"
-        class="w-screen h-[600px] p-28 pt-16 flex items-center gap-8 justify-between"
-        style="background-color: rgb(8, 8, 8)"
-      >
-        <div class="w-[550px] h-[400px] flex flex-col gap-6 pt-10">
-          <h1 class="text-white text-6xl fonte-nome">
-            <sapn class="alfa-slab-one-regular text-[55px] text-red-600"
-              >&lt;</sapn
-            >Lucas Sales
-          </h1>
-          <h2 class="text-white text-5xl fonte-nome">
-            Desenvolvedor
-            <span class="text-red-600 fonte-nome"
-              >FullStack<sapn
-                class="text-white alfa-slab-one-regular text-[40px]"
-              >
-                \&gt;</sapn
-              ></span
-            >
-          </h2>
-          <p class="text-white">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
-            minima recusandae? Non, atque quo. Eius doloremque at harum
-            voluptatum, totam, maiores architecto quas quia ea ex nihil, facere
-            vero cupiditate!
-          </p>
-          <div class="flex w-[550px] justify-between pr-4">
-            <div class="icons-contatos flex gap-4">
-              <img
-                class="w-[35px] h-[32px]"
-                src="./images/instagram.png"
-                alt=""
-              />
-              <img
-                class="w-[35px] h-[32px]"
-                src="./images/linkedin.png"
-                alt=""
-              />
-              <img class="w-[35px] h-[32px]" src="./images/github.png" alt="" />
-              <img class="w-[35px] h-[32px]" src="./images/email.png" alt="" />
-            </div>
-            <button
-              class="bg-red-600 text-white rounded-[5px] px-2-sm shadow-md hover:shadow-[0_0_15px_5px_rgba(220,38,38,0.7)] transition-shadow duration-300 cursor-pointer w-[150px] font-medium h-[35px] text-[15px]"
-            >
-              Entre em contato
-            </button>
-          </div>
-        </div>
-        <div class="pb-10">
-          <img class="w-[380px]" src="images/vetor.png" alt="" />
-        </div>
-      </section>
-      <section id="sobre"
-        class="w-screen h-[800px] flex py-16 items-center flex-col"
-        style="background-color: rgb(19, 19, 19)"
-        ;
-      >
-        <div class="tituto flex justify-center h-[40px]">
-          <h2 class="text-white text-2xl font-medium">
-            <span class="text-red-600">&lt;</span>Sobre
-            <span class="text-red-600">mim</span>\&gt;
-          </h2>
-        </div>
-        <div
-          class="flex w-screen h-[700px] px-26 justify-between items-center py-[85px]"
-          style="background-color: rgb(19, 19, 19)"
-        >
-          <div class="card-eu text-white flex flex-col gap-3">
-            <img
-              class="w-[450px] h-[450px]"
-              src="./images/vetor3.png "
-              alt=""
-            />
-          </div>
-          <div class="layout w-[600px] h-600px text-white flex flex-col gap-5">
-            <div class="quests">
-              <h2 class="text-red-600 font-medium">Quem sou eu?</h2>
-              <p>
-                Meu nome é Lucas, tenho 21 anos, sou formado em Técnico em
-                Desenvolvimento de Sistemas e atualmente curso Análise e
-                Desenvolvimento de Sistemas. Trabalho como estagiário dev,
-                atuando com PHP, Laravel, Docker, MySQL e JavaScript. Sou
-                apaixonado por tecnologia, sempre buscando aprender novas
-                ferramentas e evoluir como desenvolvedor,.
-              </p>
-            </div>
-            <div class="quests flex flex-col">
-              <h2 class="text-red-600 font-medium">Formações</h2>
-              <p>
-                Téncico em Desenvolvimento de Sistemas
-                <span
-                  >06/2023 á 12/2024 -
-                  <span class="text-red-600">Concluído</span>
-                </span>
-              </p>
-              <p>
-                Análise e Desenvolvimento de Sistemas
-                <span
-                  >03/2025 à 11/2027 -
-                  <span class="text-red-600">Em andamento</span></span
-                >
-              </p>
-            </div>
-            <div class="quests w-[500px] flex flex-col gap-3">
-              <h2 class="text-red-600 font-medium">Lingaguens e Técnologias</h2>
-              <div
-                class="tecnologias text-white text-[15px] flex flex-col gap-2"
-              >
-                <div
-                  class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2"
-                  style="background-color: rgb(29, 29, 29)"
-                >
-                  <img
-                    class="w-[30px] h-[30px] object-contain"
-                    src="./images/icon-php.png"
-                    alt=""
-                  />
-                  <p>PHP</p>
-                </div>
-                <div
-                  class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2"
-                  style="background-color: rgb(29, 29, 29)"
-                >
-                  <img
-                    class="w-[30px]"
-                    src="./images/icon-laravel.png"
-                    alt=""
-                  />
-                  <p>Laravel</p>
-                </div>
-                <div
-                  class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2"
-                  style="background-color: rgb(29, 29, 29)"
-                >
-                  <img class="w-[30px]" src="./images/icon-js.png" alt="" />
-                  <p>Javascript</p>
-                </div>
-                <div
-                  class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2"
-                  style="background-color: rgb(29, 29, 29)"
-                >
-                  <img class="w-[30px]" src="./images/icon-react.png" alt="" />
-                  <p>React</p>
-                </div>
-                <div
-                  class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2"
-                  style="background-color: rgb(29, 29, 29)"
-                >
-                  <img class="w-[30px]" src="./images/icon-docker.png" alt="" />
-                  <p>Docker</p>
-                </div>
-                <div
-                  class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2"
-                  style="background-color: rgb(29, 29, 29)"
-                >
-                  <img class="w-[30px]" src="./images/icon-mysql.png" alt="" />
-                  <p>MySQL</p>
-                </div>
-                <div
-                  class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2"
-                  style="background-color: rgb(29, 29, 29)"
-                >
-                  <img
-                    class="w-[30px]"
-                    src="./images/icon-tailwind.png"
-                    alt=""
-                  />
-                  <p>TailwindCss</p>
-                </div>
-                <div
-                  class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2"
-                  style="background-color: rgb(29, 29, 29)"
-                >
-                  <img class="w-[30px]" src="./images/icon-git.png" alt="" />
-                  <p>GIT</p>
-                </div>
-                <div
-                  class="tecnologia flex gap-3 items-center justify-cente w-[150px] rounded-[5px] px-2"
-                  style="background-color: rgb(29, 29, 29)"
-                >
-                  <img class="w-[30px]" src="./images/icon-html.png" alt="" />
-                  <p>HTML</p>
-                </div>
-                <div
-                  class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2"
-                  style="background-color: rgb(29, 29, 29)"
-                >
-                  <img class="w-[30px]" src="./images/icon-css.png" alt="" />
-                  <p>CSS</p>
-                </div>
-                <div
-                  class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2"
-                  style="background-color: rgb(29, 29, 29)"
-                >
-                  <img class="w-[30px]" src="./images/icon-figma.png" alt="" />
-                  <p>Figma</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="projetos"
-        class="w-screen flex items-center flex-col py-14 px-24 gap-20"
-        style="background-color: rgb(8, 8, 8)"
-        ;
-      >
-        <div class="tituto flex justify-center h-[40px]">
-          <h2 class="text-white text-2xl font-medium">
-            <span class="text-red-600">&lt;</span>Meus
-            <span class="text-red-600">Projetos</span>\&gt
-          </h2>
-        </div>
-        <div class="cards flex gap-10 flex-wrap p-6">
-          <div
-            class="card flex items-center justify-center flex-col gap-6 w-[400px] h-[500px] border-4 border-white rounded text-white"
-          >
-            <div class="imagem border-2 border-white h-180px]">
-              <img
-                class="w-[320px] h-[220px]"
-                src="./images/biblioteca.png"
-                alt=""
-              />
-            </div>
-            <p>Emprestimos de Livros</p>
-            <div
-              class="tecnologias-usadas flex items-center justify-between gap-3 flex-wrap w-[320px]"
-            >
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-php.png"
-                  alt=""
-                />
-              </div>
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-laravel.png"
-                  alt=""
-                />
-              </div>
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-js.png"
-                  alt=""
-                />
-              </div>
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-docker.png"
-                  alt=""
-                />
-              </div>
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-tailwind.png"
-                  alt=""
-                />
-              </div>
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-mysql.png"
-                  alt=""
-                />
-              </div>
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-html.png"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="flex justify-between w-[320px]">
-              <button
-                class="bg-red-600 w-[150px] h-[40px] rounded-[3px] font-medium cursor-pointer"
-              >
-                Conferir
-              </button>
-              <button
-                class="bg-slate-900 w-[150px] h-[40px] rounded-[3px] font-medium cursor-pointer"
-              >
-                Detalhes
-              </button>
-            </div>
-          </div>
-          <div
-            class="card flex items-center justify-center flex-col gap-6 w-[400px] h-[500px] border-4 border-white rounded text-white"
-          >
-            <div class="imagem border-2 border-white h-180px]">
-              <img
-                class="w-[320px] h-[220px]"
-                src="./images/babapet.png"
-                alt=""
-              />
-            </div>
-            <p>BabaPet</p>
-            <div
-              class="tecnologias-usadas flex items-center gap-2 flex-wrap w-[320px]"
-            >
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-java.png"
-                  alt=""
-                />
-              </div>
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-spring.png"
-                  alt=""
-                />
-              </div>
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-docker.png"
-                  alt=""
-                />
-              </div>
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-postgreed.png"
-                  alt=""
-                />
-              </div>
+    </a>
+    <nav>
+      <ul class="flex gap-6 text-white">
+        <li class="relative group cursor-pointer ">
+          <a href="#inicio">Início</a>
+          <span
+            class="absolute left-1/2 bottom-0 h-[2px] w-0 bg-red-600 transition-all duration-300 group-hover:w-full group-hover:left-0 origin-center"></span>
+        </li>
 
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-js.png"
-                  alt=""
-                />
-              </div>
+        <li class="relative group cursor-pointer">
+          <a href="#sobre">Sobre mim</a>
+          <span
+            class="absolute left-1/2 bottom-0 h-[2px] w-0 bg-red-500 transition-all duration-300 group-hover:w-full group-hover:left-0 origin-center"></span>
+        </li>
 
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-html.png"
-                  alt=""
-                />
-              </div>
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-css.png"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="flex justify-between w-[320px]">
-              <button
-                class="bg-red-600 w-[150px] h-[40px] rounded-[3px] font-medium cursor-pointer"
-              >
-                Conferir
-              </button>
-              <button
-                class="bg-slate-900 w-[150px] h-[40px] rounded-[3px] font-medium cursor-pointer"
-              >
-                Detalhes
-              </button>
-            </div>
+        <li class="relative group cursor-pointer">
+          <a href="#projetos">Projetos</a>
+          <span
+            class="absolute left-1/2 bottom-0 h-[2px] w-0 bg-red-500 transition-all duration-300 group-hover:w-full group-hover:left-0 origin-center"></span>
+        </li>
+        <li class="relative group cursor-pointer">
+          <a href="#contato">Contato</a>
+          <span
+            class="absolute left-1/2 bottom-0 h-[2px] w-0 bg-red-500 transition-all duration-300 group-hover:w-full group-hover:left-0 origin-center"></span>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio" class="w-full h-[700px] p-28 pt-40 flex items-center gap-8 justify-between"
+      style="background-color: rgb(8, 8, 8)">
+      <div class="w-[550px] h-[400px] flex flex-col gap-6 pt-10">
+        <h1 class="text-white text-6xl fonte-nome">
+          <sapn class="alfa-slab-one-regular text-[55px] text-red-600">&lt;</sapn>Lucas Sales
+        </h1>
+        <h2 class="text-white text-5xl fonte-nome">
+          Desenvolvedor
+          <span class="text-red-600 fonte-nome">FullStack<sapn class="text-white alfa-slab-one-regular text-[40px]">
+              \&gt;</sapn></span>
+        </h2>
+        <p class="text-white">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+          minima recusandae? Non, atque quo. Eius doloremque at harum
+          voluptatum, totam, maiores architecto quas quia ea ex nihil, facere
+          vero cupiditate!
+        </p>
+        <div class="flex w-[550px] justify-between pr-4">
+          <div class="icons-contatos flex gap-4">
+            <img class="w-[35px] h-[32px] hover:filter hover:drop-shadow-[0_0_1px_rgba(220,38,38,0.7)] cursor-pointer hover:scale-[1.05]" src="./images/instagram.png" alt="" />
+            <img class="hover:filter-drop-shaddow-[] w-[35px] h-[32px] hover:filter hover:drop-shadow-[0_0_1px_rgba(220,38,38,0.7)] cursor-pointer hover:scale-[1.05]" src="./images/linkedin.png" alt="" />
+            <img class="hover:filter-drop-shaddow-[] w-[35px] h-[32px] hover:filter hover:drop-shadow-[0_0_1px_rgba(220,38,38,0.7)] cursor-pointer hover:scale-[1.05]" src="./images/github.png" alt="" />
+            <img class="hover:filter-drop-shaddow-[] w-[35px] h-[32px] hover:filter hover:drop-shadow-[0_0_1px_rgba(220,38,38,0.7)] cursor-pointer hover:scale-[1.05]" src="./images/email.png" alt="" />
           </div>
-
-          <div
-            class="card flex items-center justify-center flex-col gap-6 w-[400px] h-[500px] border-4 border-white rounded text-white"
-          >
-            <div class="imagem border-2 border-white h-180px]">
-              <img
-                class="w-[320px] h-[220px]"
-                src="./images/jogo-da-velha.png"
-                alt=""
-              />
-            </div>
-            <p>Jogo da Velha</p>
-            <div
-              class="tecnologias-usadas flex items-center gap-2 flex-wrap w-[320px]"
-            >
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-js.png"
-                  alt=""
-                />
-              </div>
-
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-html.png"
-                  alt=""
-                />
-              </div>
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-css.png"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="flex justify-between w-[320px]">
-              <button
-                class="bg-red-600 w-[150px] h-[40px] rounded-[3px] font-medium cursor-pointer"
-              >
-                Conferir
-              </button>
-              <button
-                class="bg-slate-900 w-[150px] h-[40px] rounded-[3px] font-medium cursor-pointer"
-              >
-                Detalhes
-              </button>
-            </div>
-          </div>
-          <div
-            class="card flex items-center justify-center flex-col gap-6 w-[400px] h-[500px] border-4 border-white rounded text-white"
-          >
-            <div class="imagem border-2 border-white h-180px]">
-              <img
-                class="w-[320px] h-[220px]"
-                src="./images/calculadora-imc.png"
-                alt=""
-              />
-            </div>
-            <p>Calculadora de IMC</p>
-            <div
-              class="tecnologias-usadas flex items-center gap-2 flex-wrap w-[320px]"
-            >
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-js.png"
-                  alt=""
-                />
-              </div>
-
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-html.png"
-                  alt=""
-                />
-              </div>
-              <div class="tecnologia flex gap-3 items-center">
-                <img
-                  class="w-[30px] h-[30px] object-contain"
-                  src="./images/icon-css.png"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="flex justify-between w-[320px]">
-              <button
-                class="bg-red-600 w-[150px] h-[40px] rounded-[3px] font-medium cursor-pointer"
-              >
-                Conferir
-              </button>
-              <button
-                class="bg-slate-900 w-[150px] h-[40px] rounded-[3px] font-medium cursor-pointer"
-              >
-                Detalhes
-              </button>
-            </div>
-          </div>
+          <button
+            class="bg-red-600 text-white rounded-[5px] px-2-sm shadow-md hover:shadow-[0_0_15px_5px_rgba(220,38,38,0.7)] transition-shadow duration-300 cursor-pointer w-[150px] font-medium h-[35px] text-[15px] hover:scale-[1.05]">
+            Entre em contato
+          </button>
         </div>
-      </section>
-      <section id="contato"
-        class="w-screen flex items-center flex-col py-14 px-24 gap-20"
-        style="background-color: rgb(19, 19, 19)"
-        ;
-      >
+      </div>
+      <div class="pb-10">
+        <img class="w-[380px]" src="images/vetor.png" alt="" />
+      </div>
+    </section>
+    <section id="sobre" class="w-full h-[800px] flex py-16 items-center flex-col"
+      style="background-color: rgb(19, 19, 19)" ;>
       <div class="tituto flex justify-center h-[40px]">
-          <h2 class="text-white text-2xl font-medium">
-            <span class="text-red-600">&lt;</span>Contato\&gt
-          </h2>
+        <h2 class="text-white text-2xl font-medium">
+          <span class="text-red-600">&lt;</span>Sobre
+          <span class="text-red-600">mim</span>\&gt;
+        </h2>
+      </div>
+      <div class="flex w-full h-[700px] px-26 justify-between items-center py-[85px]"
+        style="background-color: rgb(19, 19, 19)">
+        <div class="card-eu text-white flex flex-col gap-3">
+          <img class="w-[450px] h-[450px]" src="./images/vetor3.png " alt="" />
         </div>
-        <div class="   flex justify-between w-screen px-28">
-          <div class="w-[500px] pt-5 vetor flex ">
-            <img class="w-[350px]" src="./images/vetor4.png" alt="" />
+        <div class="layout w-[600px] h-600px text-white flex flex-col gap-5">
+          <div class="quests">
+            <h2 class="text-red-600 font-medium">Quem sou eu?</h2>
+            <p>
+              Meu nome é Lucas, tenho 21 anos, sou formado em Técnico em
+              Desenvolvimento de Sistemas e atualmente curso Análise e
+              Desenvolvimento de Sistemas. Trabalho como estagiário dev,
+              atuando com PHP, Laravel, Docker, MySQL e JavaScript. Sou
+              apaixonado por tecnologia, sempre buscando aprender novas
+              ferramentas e evoluir como desenvolvedor,.
+            </p>
           </div>
-          <div class="form-contato flex flex-col gap-10">
-            <div class="titulo-form">
-              <h3
-                class="text-white text-2xl font-[600] w-[450px] flex justify-center"
-              >
-                Entre em contato
-              </h3>
+          <div class="quests flex flex-col">
+            <h2 class="text-red-600 font-medium">Formações</h2>
+            <p>
+              Téncico em Desenvolvimento de Sistemas
+              <span>06/2023 á 12/2024 -
+                <span class="text-red-600">Concluído</span>
+              </span>
+            </p>
+            <p>
+              Análise e Desenvolvimento de Sistemas
+              <span>03/2025 à 11/2027 -
+                <span class="text-red-600">Em andamento</span></span>
+            </p>
+          </div>
+          <div class="quests w-[500px] flex flex-col gap-3">
+            <h2 class="text-red-600 font-medium">Lingaguens e Técnologias</h2>
+            <div class="tecnologias text-white text-[15px] flex flex-col gap-2">
+              <div class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2 hover:scale-[1.05]  hover:border-red-600 hover:border-[2px] transition-all duration-200 h-[40px]"
+                style="background-color: rgb(29, 29, 29)">
+                <img class="w-[30px]" src="./images/icon-php.png" alt="" />
+                <p>PHP</p>
+              </div>
+              <div class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2 hover:scale-[1.05]  hover:border-red-600 hover:border-[2px] transition-all duration-200 h-[40px]"
+                style="background-color: rgb(29, 29, 29)">
+                <img class="w-[30px]" src="./images/icon-laravel.png" alt="" />
+                <p>Laravel</p>
+              </div>
+              <div class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2 hover:scale-[1.05]  hover:border-red-600 hover:border-[2px] transition-all duration-200 h-[40px] "
+                style="background-color: rgb(29, 29, 29)">
+                <img class="w-[30px]" src="./images/icon-js.png " alt="" />
+                <p>Javascript</p>
+              </div>
+              <div class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2 hover:scale-[1.05]  hover:border-red-600 hover:border-[2px] transition-all duration-200 h-[40px]"
+                style="background-color: rgb(29, 29, 29)">
+                <img class="w-[30px]" src="./images/icon-react.png" alt="" />
+                <p>React</p>
+              </div>
+              <div class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2 hover:scale-[1.05]  hover:border-red-600 hover:border-[2px] transition-all duration-200 h-[40px]"
+                style="background-color: rgb(29, 29, 29)">
+                <img class="w-[30px]" src="./images/icon-docker.png" alt="" />
+                <p>Docker</p>
+              </div>
+              <div class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2 hover:scale-[1.05]  hover:border-red-600 hover:border-[2px] transition-all duration-200 h-[40px]"
+                style="background-color: rgb(29, 29, 29)">
+                <img class="w-[30px]" src="./images/icon-mysql.png" alt="" />
+                <p>MySQL</p>
+              </div>
+              <div class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2 hover:scale-[1.05]  hover:border-red-600 hover:border-[2px] transition-all duration-200 h-[40px]"
+                style="background-color: rgb(29, 29, 29)">
+                <img class="w-[30px]" src="./images/icon-tailwind.png" alt="" />
+                <p>TailwindCss</p>
+              </div>
+              <div class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2 hover:scale-[1.05]  hover:border-red-600 hover:border-[2px] transition-all duration-200 h-[40px]"
+                style="background-color: rgb(29, 29, 29)">
+                <img class="w-[30px]" src="./images/icon-git.png" alt="" />
+                <p>GIT</p>
+              </div>
+              <div class="tecnologia flex gap-3 items-center justify-cente w-[150px] rounded-[5px] px-2 hover:scale-[1.05]  hover:border-red-600 hover:border-[2px] transition-all duration-200 h-[40px]"
+                style="background-color: rgb(29, 29, 29)">
+                <img class="w-[30px]" src="./images/icon-html.png" alt="" />
+                <p>HTML</p>
+              </div>
+              <div class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2 hover:scale-[1.05]  hover:border-red-600 hover:border-[2px] transition-all duration-200 h-[40px] "
+                style="background-color: rgb(29, 29, 29)">
+                <img class="w-[30px]" src="./images/icon-css.png" alt="" />
+                <p>CSS</p>
+              </div>
+              <div class="tecnologia flex gap-3 items-center w-[150px] p-[4px] rounded-[5px] px-2 hover:scale-[1.05] hover:border-red-600 hover:border-[2px] transition-all duration-200 h-[40px]"
+                style="background-color: rgb(29, 29, 29)">
+                <img class="w-[30px]" src="./images/icon-figma.png" alt="" />
+                <p>Figma</p>
+              </div>
             </div>
-            <form
-              class="text-white flex flex-col gap-3"
-              action="https://formsubmit.co/lucasrscarvalho525@gmail.com"
-              method="POST"
-            >
-              <div class="input-content flex flex-col gap-[7px]">
-                <label for="nome">Nome completo</label>
-                <input
-                  class=""
-                  type="text"
-                  name="nome"
-                  placeholder="Seu nome"
-                  required
-                />
-              </div>
-              <div class="input-content flex flex-col gap-[7px]">
-                <label for="email">Email</label>
-                <input
-                  class=""
-                  type="text"
-                  name="email"
-                  placeholder="Seu email"
-                  required
-                />
-              </div>
-              <div class="input-content flex flex-col gap-[7px]">
-                <label for="nome">Mensagem</label>
-                <textarea
-                  class="w-[450px] h-[150px] p-5"
-                  name="mensagem"
-                  placeholder="Digite sua mensagem aqui.."
-                  required
-                ></textarea>
-              </div>
-              <input type="hidden" name="_captcha" value="false" />
-              <input
-                type="hidden"
-                name="_next"
-                value="http://127.0.0.1:5500/index.html"
-              />
-              <button
-                class="bg-red-600 w-[450px] h-[45px] text-[18px] font-medium rounded-[3px] cursor-pointer"
-                type="submit"
-              >
-                Enviar
-              </button>
-            </form>
           </div>
         </div>
-      </section>
-    </main>
-    <footer class="w-screen h-[100px] " style="background-color: rgb(8, 8, 8);">
+      </div>
+    </section>
+    <section id="projetos" class="w-full flex items-center flex-col py-14 px-24 gap-20"
+      style="background-color: rgb(8, 8, 8)" ;>
+      <div class="tituto flex justify-center h-[40px]">
+        <h2 class="text-white text-2xl font-medium">
+          <span class="text-red-600">&lt;</span>Meus
+          <span class="text-red-600">Projetos</span>\&gt
+        </h2>
+      </div>
+      <div class="cards flex justify-between flex-wrap  w-full">
+        <div class="card w-[30%] h-[470px] p-8 flex flex-col gap-6 rounded-sm"
+          style="background-color: rgb(29, 29, 29);">
 
-    </footer>
-  </body>
+          <div class="titulo-projeto flex justify-center">
+            <h3 class="text-white text-[22px] font-medium">
+              Emprestimo de Livros
+            </h3>
+          </div>
+          <div class="imagem-projeto w-full">
+            <img class="w-full border-[2px] border-white rounded-[2px]" src="./images/biblioteca.png" alt="">
+          </div>
+          <div class="tecnologias-usadas flex flex-wrap gap-[10px] h-[80px]">
+            <img class="max-w-[30px]" src="./images/icon-php.png" alt="">
+            <img class="max-w-[30px]" src="./images/icon-laravel.png" alt="">
+            <img class="max-w-[30px]" src="./images/icon-js.png" alt="">
+            <img class="max-w-[30px]" src="./images/icon-tailwind.png" alt="">
+            <img class="max-w-[30px]" src="./images/icon-docker.png" alt="">
+            <img class="max-w-[30px]" src="./images/icon-mysql.png" alt="">
+            <img class="max-w-[30px]" src="./images/icon-git.png" alt="">
+            <img class="max-w-[30px]" src="./images/icon-html.png" alt="">
+          </div>
+          <div class="acoes flex justify-between">
+            <div
+              class="bg-red-600 text-white w-[45%] h-[35px] flex items-center gap-[5px] justify-center rounded-[3px] cursor-pointer hover:bg-red-800">
+              <img class="w-[20px]" src="./images/icon-olho.png" alt="">
+              <p class="text-[14px]">Visualizar</p>
+            </div>
+            <div
+              class="bg-slate-900 text-white w-[45%] h-[35px] flex items-center gap-[5px] justify-center rounded-[3px] cursor-pointer hover:bg-slate-700">
+              <img class="w-[20px]" src="./images/icon-detalhes.png" alt="">
+              <p class="text-[14px]">Detalhes</p>
+            </div>
+          </div>
+        </div>
+        <div class="card w-[30%] h-[470px] p-8 flex flex-col gap-6 rounded-sm"
+          style="background-color: rgb(29, 29, 29);">
+
+          <div class="titulo-projeto flex justify-center">
+            <h3 class="text-white text-[22px] font-medium">
+              BabaPet
+            </h3>
+          </div>
+          <div class="imagem-projeto w-full">
+            <img class="w-full border-[2px] border-white rounded-[2px]" src="./images/babapet.png" alt="">
+          </div>
+          <div class="tecnologias-usadas flex flex-wrap gap-[10px] h-[80px]">
+            <img class="max-w-[30px]" src="./images/icon-java.png" alt="">
+            <img class="max-w-[30px]" src="./images/icon-spring.png" alt="">
+            <img class="max-w-[30px]" src="./images/icon-js.png" alt="">
+            <img class="max-w-[30px]" src="./images/icon-docker.png" alt="">
+            <img class="max-w-[30px]" src="./images/icon-postgreed.png" alt="">
+            <img class="max-w-[30px]" src="./images/icon-git.png" alt="">
+            <img class="max-w-[30px]" src="./images/icon-html.png" alt="">
+            <img class="max-w-[30px]" src="./images/icon-css.png" alt="">
+          </div>
+          <div class="acoes flex justify-between">
+            <div
+              class="bg-red-600 text-white w-[45%] h-[35px] flex items-center gap-[5px] justify-center rounded-[3px] cursor-pointer hover:bg-red-800">
+              <img class="w-[20px]" src="./images/icon-olho.png" alt="">
+              <p class="text-[14px]">Visualizar</p>
+            </div>
+            <div
+              class="bg-slate-900 text-white w-[45%] h-[35px] flex items-center gap-[5px] justify-center rounded-[3px] cursor-pointer hover:bg-slate-700">
+              <img class="w-[20px]" src="./images/icon-detalhes.png" alt="">
+              <p class="text-[14px]">Detalhes</p>
+            </div>
+          </div>
+        </div>
+        <div class="card w-[30%] h-[470px] p-8 flex flex-col gap-6 rounded-sm"
+          style="background-color: rgb(29, 29, 29);">
+
+          <div class="titulo-projeto flex justify-center">
+            <h3 class="text-white text-[22px] font-medium">
+              Jogo da Velha
+            </h3>
+          </div>
+          <div class="imagem-projeto w-full">
+            <img class="w-full border-[2px] border-white rounded-[2px]" src="./images/jogo-da-velha.png" alt="">
+          </div>
+          <div class="tecnologias-usadas flex flex-wrap gap-[10px] h-[80px]">
+            <img class="max-w-[30px] max-h-[30px]" src="./images/icon-js.png" alt="">
+            <img class="max-w-[30px] max-h-[30px]" src="./images/icon-html.png" alt="">
+            <img class="max-w-[30px] max-h-[30px]" src="./images/icon-css.png" alt="">
+            <img class="max-w-[30px] max-h-[30px]" src="./images/icon-git.png" alt="">
+          </div>
+          <div class="acoes flex justify-between">
+            <div
+              class="bg-red-600 text-white w-[45%] h-[35px] flex items-center gap-[5px] justify-center rounded-[3px] cursor-pointer hover:bg-red-800">
+              <img class="w-[20px]" src="./images/icon-olho.png" alt="">
+              <p class="text-[14px]">Visualizar</p>
+            </div>
+            <div
+              class="bg-slate-900 text-white w-[45%] h-[35px] flex items-center gap-[5px] justify-center rounded-[3px] cursor-pointer hover:bg-slate-700">
+              <img class="w-[20px]" src="./images/icon-detalhes.png" alt="">
+              <p class="text-[14px]">Detalhes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contato" class="w-full flex items-center flex-col py-14 px-24 gap-20"
+      style="background-color: rgb(19, 19, 19)" ;>
+      <div class="titulo flex justify-center h-[40px]">
+        <h2 class="text-white text-2xl font-medium">
+          <span class="text-red-600">&lt;</span>Contato\&gt
+        </h2>
+      </div>
+      <div class="   flex justify-between w-full px-28">
+        <div class="w-[500px] pt-5 vetor flex ">
+          <img class="w-[350px]" src="./images/vetor4.png" alt="" />
+        </div>
+        <div class="form-contato flex flex-col gap-10">
+          <div class="titulo-form">
+            <h3 class="text-white text-2xl font-[600] w-[450px] flex justify-center">
+              Entre em contato
+            </h3>
+          </div>
+          <form class="text-white flex flex-col gap-3" action="https://formsubmit.co/lucasrscarvalho525@gmail.com"
+            method="POST">
+            <div class="input-content flex flex-col gap-[7px]">
+              <label for="nome">Nome completo</label>
+              <input class="" type="text" name="nome" placeholder="Seu nome" required />
+            </div>
+            <div class="input-content flex flex-col gap-[7px]">
+              <label for="email">Email</label>
+              <input class="" type="text" name="email" placeholder="Seu email" required />
+            </div>
+            <div class="input-content flex flex-col gap-[7px]">
+              <label for="nome">Mensagem</label>
+              <textarea class="w-[450px] h-[150px] p-5" name="mensagem" placeholder="Digite sua mensagem aqui.."
+                required></textarea>
+            </div>
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html" />
+            <button class="bg-red-600 w-[450px] h-[45px] text-[18px] font-medium rounded-[3px] cursor-pointer"
+              type="submit">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="w-full text-white px-26 py-8 flex items-center " style="background-color: rgb(8, 8, 8);">
+    <div class="footer-content w-[65%]  flex justify-between">
+      <div class="info-dev flex flex-col  justify-center h-full gap-2 w-[300px]">
+        <p class="">
+          Desenvolvido por: Lucas Sales
+        </p>
+        <p>Data de Desenvolvimento: 27/07/2025</p>
+        <div class="tecnologias-usadas flex flex-col gap-2">
+          <p>Tecnologias Usadas: </p>
+          <div class="flex gap-2">
+            <img class="w-[30px]" src="./images/icon-js.png" alt="">
+            <img class="w-[30px]" src="./images/icon-tailwind.png" alt="">
+            <img class="w-[30px]" src="./images/icon-git.png" alt="">
+            <img class="w-[30px]" src="./images/github.png" alt="">
+            <img class="w-[30px]" src="./images/icon-figma.png" alt="">
+            <img class="w-[30px]" src="./images/icon-html.png" alt="">
+            <img class="w-[30px]" src="./images/icon-css.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="logo-dev w-[350px] flex items-center justify-center flex-col">
+        <h1 class="fonte-nome text-5xl"><span class="text-red-600 alfa-slab-one-regular text-4xl">&lt;/&gt</span>Lucas
+          Sales</h1>
+        <p class="fonte-nome text-2xl">Desenvolvedor <span class="text-red-600 fonte-nome ">FullStack</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
